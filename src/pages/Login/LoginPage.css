@@ -1,0 +1,174 @@
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('../src/assets/images/tp-bg002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+        Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #5e5e5e !important;
+}
+.login-box {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+.input {
+    border-radius: 0 !important;
+    height: 40px;
+    width: 340px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    padding-right: 0px !important;
+}
+.input svg {
+    margin-right: 7px;
+    height: 20px;
+    width: 20px;
+}
+.input #input-with-icon-adornment,
+.input #standard-adornment-password {
+    background-color: #e8f0fe;
+    padding-left: 20px;
+    height: 7px;
+    font-size: 14px;
+}
+.MuiAlert-icon svg {
+    height: 16px;
+}
+.stack-user .MuiAlert-standardError {
+    height: 33px !important;
+    padding: 0 16px !important;
+    font-size: 12px !important;
+    margin-bottom: 10px;
+}
+.stack-pass .MuiAlert-standardError {
+    height: 33px !important;
+    padding: 0 16px !important;
+    font-size: 12px !important;
+    margin-bottom: 13px;
+}
+button.MuiButtonBase-root {
+    height: 40px;
+}
+button.MuiButtonBase-root:hover {
+    background-color: #e8f0fe !important;
+}
+.login {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.login-form form {
+    width: 400px;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.login-form__logo {
+    width: 150px;
+    margin: 0 auto 20px auto;
+}
+.login-form__component {
+    display: flex;
+    flex-direction: row;
+}
+.login-form__component:focus {
+    border: 1px solid #0079c4 !important;
+}
+.login-form__icon {
+    height: 40px;
+    width: 60px;
+    background-color: #ddd;
+    border: none;
+    display: grid;
+    place-items: center;
+    border: 0.5px solid #aaa;
+    border-right: none;
+    color: #555 !important;
+}
+.login-form__icon img {
+    height: 16px;
+    width: 16px;
+}
+.login-form__input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 0 0 0 20px;
+    border: none;
+    background-color: #edf6fc;
+    border: 0.5px solid #aaa;
+    border-left: none;
+}
+.login-form__input:focus {
+    border: none !important;
+}
+.login-form__forgot,
+.login-form__register,
+.login-form__register span a {
+    color: #6c6c6c;
+    font-size: 11px;
+}
+.login-form__forgot {
+    align-self: flex-end;
+    line-height: 0.8;
+    margin-top: -12px;
+    margin-bottom: 15px;
+}
+.login-form__register {
+    align-self: flex-start;
+    padding-left: 30px;
+    line-height: 0.8;
+    margin-bottom: 0px;
+    margin-top: 17px;
+}
+.login-form__register > span {
+    font-weight: 700;
+    cursor: pointer;
+}
+.login-form__forgot:hover,
+.login-form__register span a:hover {
+    color: #0079c4;
+}
+.login-form input[type='submit'] {
+    display: inline-block;
+    align-self: flex-end;
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #0090e9;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+.login-form input[type='submit']:hover {
+    background-color: #0079c4;
+    cursor: pointer;
+}
+.login-form input[type='submit']:focus {
+    border: none;
+}
+.button-login {
+    height: 40px !important;
+    padding: 6px 20px !important;
+    font-size: 13px !important;
+    text-transform: none !important;
+    align-self: flex-end !important;
+    border-radius: 0 !important;
+}
+.button-login:hover {
+    background-color: #145fa9 !important;
+}
+
+p.copy {
+    margin-top: 20px;
+    text-align: center !important;
+    color: white !important;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}

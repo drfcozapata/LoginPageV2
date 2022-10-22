@@ -1,0 +1,16 @@
+{
+    "Authentication failed": "Autenticación fallida",
+    "Close": "Cerrar",
+    "Enter your username": "Ingresa tu usuario",
+    "User cannot be empty": "El usuario no puede estar vacío",
+    "Enter your password": "Ingresa tu password",
+    "Password cannot be empty": "El password no puede estar vacío",
+    "Forgot your password?": "¿Olvidaste tu password?",
+    "Log In": "Entrar",
+    "You do not have an account?": "¿No tienes cuenta?",
+    "Create an account": "Crea una cuenta",
+    "Home": "Principal",
+    "Language": "Idioma",
+    "Account settings": "Configuración de la cuenta",
+    "Sign out": "Salir"
+}

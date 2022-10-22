@@ -1,0 +1,45 @@
+/* Navbar */
+.navbar {
+    height: 56px;
+    width: 100%;
+    padding: 0 30px;
+    background-color: #ccc !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.navbar__logo svg {
+    cursor: pointer;
+    width: 26px;
+}
+.navbar__logo img {
+    width: 50px;
+    height: 40px;
+}
+.navbar__menu {
+    display: flex;
+}
+.language-menu {
+    display: flex !important;
+    flex-direction: column !important;
+}
+.avatar {
+    width: 46px !important;
+    height: 46px !important;
+    margin: 0 auto !important;
+    /* margin-left: 0 !important;
+    margin-right: 0 !important; */
+    font-size: 28px !important;
+    font-weight: 500 !important;
+    align-self: center !important;
+}
+/* .navbar__info {
+    display: flex;
+    gap: 20px;
+} */

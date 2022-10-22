@@ -1,0 +1,16 @@
+{
+    "Authentication failed": "Authentication failed",
+    "Close": "Close",
+    "Enter your username": "Enter your username",
+    "User cannot be empty": "User cannot be empty",
+    "Enter your password": "Enter your password",
+    "Password cannot be empty": "Password cannot be empty",
+    "Forgot your password?": "Forgot your password?",
+    "Log In": "Log In",
+    "You do not have an account?": "You do not have an account?",
+    "Create an account": "Create an account",
+    "Home": "Home",
+    "Language": "Language",
+    "Account settings": "Account settings",
+    "Sign out": "Sign out"
+}
